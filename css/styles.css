@@ -1,0 +1,38 @@
+body{
+   background-color: rgb(107, 155, 176);
+}
+
+.titulo {
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
+
+#titulo {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Shantell Sans', cursive;
+}
+
+img {
+    width: 70px;
+}
+
+button {
+    background-color: #e06d7c;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: default;
+  }
